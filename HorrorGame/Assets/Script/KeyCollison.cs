@@ -19,16 +19,22 @@ public class KeyCollison : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.collider.tag == "Player" && myKey.OpenDoor)
+        if (myKey)
         {
-            gameObject.SetActive(false);
+            if (collision.collider.tag == "Player" && myKey.OpenDoor)
+            {
+                gameObject.SetActive(false);
+            }
         }
     }
     private void OnCollisionStay2D(Collision2D collision)
     {
-        if (collision.collider.tag == "Player" && myKey.OpenDoor)
+        if (myKey)
         {
-            gameObject.SetActive(false);
+            if (collision.collider.tag == "Player" && myKey.OpenDoor)
+            {
+                gameObject.SetActive(false);
+            }
         }
     }
 
