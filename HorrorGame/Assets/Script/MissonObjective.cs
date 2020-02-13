@@ -23,19 +23,34 @@ public class MissonObjective : MonoBehaviour
 
     public void MissonUpdate()
     {
-        bool AllAreCompleted = true;
-        for (int i = 0; i < myTriggers.Count; i++)
+        //bool AllAreCompleted = true;
+        //for (int i = 0; i < myTriggers.Count; i++)
+        //{
+        //    if (myTriggers[i].gameObject.activeSelf)
+        //    {
+        //        myTriggers[i].myUpdate();
+        //    }
+        //    if (!myTriggers[i].TriggerComplete)
+        //    {
+        //        AllAreCompleted = false;
+        //    }
+        //}
+        //if (AllAreCompleted)
+        //{
+        //    MissonComplete = true;
+        //}
+        for(int i = myTriggers.Count-1; i >= 0; i--)
         {
             if (myTriggers[i].gameObject.activeSelf)
             {
                 myTriggers[i].myUpdate();
             }
-            if (!myTriggers[i].TriggerComplete)
+            if (myTriggers[i].TriggerComplete)
             {
-                AllAreCompleted = false;
+                myTriggers.RemoveAt(i);
             }
         }
-        if (AllAreCompleted)
+        if(myTriggers.Count <= 0)
         {
             MissonComplete = true;
         }

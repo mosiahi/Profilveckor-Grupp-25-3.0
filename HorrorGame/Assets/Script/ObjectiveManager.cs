@@ -50,6 +50,13 @@ public class ObjectiveManager : MonoBehaviour
             myMissons[MissonIndex].MissionTriggerCheck(collision);
         }
     }
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (MissonIndex < myMissons.Count && MissonIndex >= 0)
+        {
+            myMissons[MissonIndex].MissionTriggerCheck(collision);
+        }
+    }
 
     private void OnApplicationQuit()
     {
