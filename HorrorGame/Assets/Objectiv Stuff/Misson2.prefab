@@ -49,5 +49,5 @@ MonoBehaviour:
   TriggerCopies:
   - {fileID: 5242597772820302574, guid: e6252871f60c7194f991cd99c85cf25a, type: 3}
   - {fileID: 8523465088110779521, guid: 0b60f70161c9488499692dd5ff778614, type: 3}
-  MissonComplete: 0
+  MissonComplete: 1
   MissonText: Go to Gregs house

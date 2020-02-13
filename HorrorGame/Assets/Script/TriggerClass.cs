@@ -34,7 +34,7 @@ public abstract class TriggerClass : MonoBehaviour
     {
         if (collision.GetComponent<TriggerClass>() && myCollider)
         {
-            if (collision.GetComponent<TriggerClass>().TriggerId == myCollider.GetComponent<TriggerClass>().TriggerId)
+            if (collision == myCollider)
             {
                 return true;
             }
