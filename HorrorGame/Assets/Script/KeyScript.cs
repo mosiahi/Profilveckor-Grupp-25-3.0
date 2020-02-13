@@ -20,6 +20,7 @@ public class KeyScript : ItemClass
     // Update is called once per frame
     void Update()
     {
+
     }
 
     public override void UseItem()
