@@ -210,7 +210,7 @@ MonoBehaviour:
   health: 2
   enemyName: Patrol Log
   baseAttack: 1
-  moveSpeed: 2
+  moveSpeed: 3
   myRigidbody: {fileID: 0}
   target: {fileID: 0}
   chaseRadius: 6

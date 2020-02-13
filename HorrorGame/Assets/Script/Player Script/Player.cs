@@ -78,6 +78,7 @@ public class Player : MonoBehaviour
 
     private IEnumerator AttackCo()
     {
+        PlayMusic();
         anim.SetBool("attacking", true);
         currentState = PlayerState.attack;
         yield return null;
@@ -177,5 +178,12 @@ public class Player : MonoBehaviour
     {
         IsResistingDMG = aIsResistingDMG;
         DamageRes = SomeDamageRes;
+    }
+
+
+    public AudioSource myAudioSource;
+    public void PlayMusic()
+    {
+        myAudioSource.Play();
     }
 }
