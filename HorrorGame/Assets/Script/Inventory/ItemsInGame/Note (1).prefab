@@ -306,7 +306,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67f9419d98057e0458c3e78841b7a3d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 9015100743333652443, guid: 5d5c451fcd6066745a91d0b9e0831946, type: 3}
+  prefab: {fileID: 6992036020992858011, guid: 5d5c451fcd6066745a91d0b9e0831946, type: 3}
   Stackable: 0
   ID: 0
   NoteText: {fileID: 6522286714639161167}
@@ -574,7 +574,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 6522286713178880167}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.33333334
+  m_Size: 0.29498526
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -712,7 +712,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 49.00001, y: -60.17241}
+  m_AnchoredPosition: {x: 49.00001, y: -169.5}
   m_SizeDelta: {x: 764, y: 339}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6522286714639161166
