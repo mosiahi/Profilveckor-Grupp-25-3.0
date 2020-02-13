@@ -4333,7 +4333,7 @@ PrefabInstance:
         type: 3}
       propertyPath: prefab
       value: 
-      objectReference: {fileID: 9015100743333652443, guid: 5d5c451fcd6066745a91d0b9e0831946,
+      objectReference: {fileID: 2316842311554507321, guid: d43aceb5b36f74941b38e8e9f981f809,
         type: 3}
     - target: {fileID: 6286938213440368641, guid: d716ab1ccccf3a34192d5992693a0879,
         type: 3}
@@ -31602,7 +31602,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1339708687
-  m_SortingLayer: 4
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

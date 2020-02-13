@@ -5,6 +5,7 @@ using UnityEngine;
 public class SpanwOrDeSpawn : TriggerClass
 {
     [SerializeField] GameObject myGameObject;
+    bool HasDoneThing = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,14 +20,15 @@ public class SpanwOrDeSpawn : TriggerClass
 
     public override void myUpdate()
     {
-        throw new System.NotImplementedException();
+        
     }
     public override void myOnTriggerCheck(Collider2D collision)
     {
-        if (RightTrigger(collision))
+        if (RightTrigger(collision) && !HasDoneThing)
         {
             myGameObject.SetActive(!myGameObject.activeSelf);
             TriggerComplete = true;
+            HasDoneThing = true;
         }
     }
 }
