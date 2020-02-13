@@ -152,8 +152,6 @@ public class Player : MonoBehaviour
         else
         {
             this.gameObject.SetActive(false);
-
-            StartCoroutine(Timer());
             SceneManager.LoadScene("GameOver");
         }
         
