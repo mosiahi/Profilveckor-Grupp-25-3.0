@@ -11,7 +11,7 @@ public class PlayerInventory : MonoBehaviour
         
         DisplayInventory.AccessCanPickUp = false;
         Debug.Log("Yes42342");
-        if (inventory.Container.Count == 15)
+        if (inventory.Container.Count == 15 && collision.gameObject.GetComponent<InventoryItems>())
         {
             ErrorSign.SetActive(true);
         }
