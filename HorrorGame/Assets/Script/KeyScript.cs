@@ -10,21 +10,23 @@ public class KeyScript : ItemClass
     // Start is called before the first frame update
     void Start()
     {
+
         DontDestroyOnLoad(this.gameObject);
-        if (GameObject.Find(DoorToOpenName))
-        {
-            GameObject.Find(DoorToOpenName).GetComponent<KeyCollison>().SetKeyScript = this;
-        }
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        if (GameObject.Find(DoorToOpenName) && OpenDoor)
+        {
+            GameObject.Find(DoorToOpenName).GetComponent<KeyCollison>().CanOpenDoor = true; ;
+        }
     }
 
     public override void UseItem()
     {
         OpenDoor = true;
     }
+
+
 }

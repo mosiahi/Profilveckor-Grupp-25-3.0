@@ -375,7 +375,7 @@ MonoBehaviour:
   ID: 0
   Name: 
   Description: 
-  DoorToOpenName: 
+  DoorToOpenName: Door1
   OpenDoor: 0
 --- !u!4 &32031755
 Transform:

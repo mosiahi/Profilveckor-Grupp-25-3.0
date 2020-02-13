@@ -1,18 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Linq;
 
 public class KeyCollison : MonoBehaviour
 {
-    KeyScript myKey;
-    [SerializeField] string myKeyName;
+    public bool CanOpenDoor = false;
     // Start is called before the first frame update
     void Start()
     {
-        if (GameObject.Find(myKeyName))
-        {
-            myKey = GameObject.Find(myKeyName).GetComponent<KeyScript>();
-        }
+
     }
 
     // Update is called once per frame
@@ -23,24 +20,22 @@ public class KeyCollison : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (myKey)
-        {
-            if (collision.collider.tag == "Player" && myKey.OpenDoor)
+       
+            if (collision.collider.tag == "Player" && CanOpenDoor)
             {
                 gameObject.SetActive(false);
             }
-        }
+        
     }
     private void OnCollisionStay2D(Collision2D collision)
     {
-        if (myKey)
-        {
-            if (collision.collider.tag == "Player" && myKey.OpenDoor)
+        
+            if (collision.collider.tag == "Player" && CanOpenDoor)
             {
                 gameObject.SetActive(false);
             }
-        }
+        
     }
 
-    public KeyScript SetKeyScript { set => myKey = value; }
+
 }
