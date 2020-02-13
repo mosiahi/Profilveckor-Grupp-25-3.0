@@ -52,6 +52,7 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Debug.Log(currentHealth.RuntimeValue);
         //myFlashLight.setOrgin(transform.position);
 
         //Is The Player In An Interaction
