@@ -14,4 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   missons:
   - {fileID: 6271973054063630681, guid: 7526839445efe024aafaf16ab90cb801, type: 3}
+  - {fileID: 3896675464525379566, guid: 0b037731f94daf64a832ca732bfccdb8, type: 3}
   myMissionIndex: 0
