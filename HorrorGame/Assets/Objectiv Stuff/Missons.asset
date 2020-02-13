@@ -16,4 +16,8 @@ MonoBehaviour:
   - {fileID: 6271973054063630681, guid: 7526839445efe024aafaf16ab90cb801, type: 3}
   - {fileID: 3896675464525379566, guid: 0b037731f94daf64a832ca732bfccdb8, type: 3}
   - {fileID: 4526800032799975226, guid: 406b50410ed7e3e48be08362ce1a8afe, type: 3}
+  - {fileID: 5481657027809727674, guid: 7110bd99bb54b074182934219e152fb4, type: 3}
+  - {fileID: 7643480611941923486, guid: 10ff9bc1290711349bd9de69136b2a54, type: 3}
+  - {fileID: 8399787849238473662, guid: a1c67c836ce3a614eac0f81b1fa9adbc, type: 3}
+  - {fileID: 2789476977868867644, guid: 7173fe02d54c01b4aa923ac712bc6912, type: 3}
   myMissionIndex: 0
