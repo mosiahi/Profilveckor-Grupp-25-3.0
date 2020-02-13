@@ -36,6 +36,8 @@ public class rotate : MonoBehaviour
             Debug.Log("Enters rotaion");
             if (rotatePog.x > 0)
             {
+
+
                 this.gameObject.transform.eulerAngles = new Vector3(
                 gameObject.transform.eulerAngles.x,
                 gameObject.transform.eulerAngles.y,

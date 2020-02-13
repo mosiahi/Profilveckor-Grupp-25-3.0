@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 6648551728675589932, guid: 14e015ce940b403478ba9e0af48c80da,
         type: 3}
       propertyPath: m_Name
-      value: Image
+      value: Keys
       objectReference: {fileID: 0}
     - target: {fileID: 8394590131819104570, guid: 14e015ce940b403478ba9e0af48c80da,
         type: 3}
@@ -80,12 +80,12 @@ PrefabInstance:
     - target: {fileID: 8394590131819104570, guid: 14e015ce940b403478ba9e0af48c80da,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 100
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 8394590131819104570, guid: 14e015ce940b403478ba9e0af48c80da,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 100
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 8394590131819104570, guid: 14e015ce940b403478ba9e0af48c80da,
         type: 3}
