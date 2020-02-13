@@ -10,6 +10,7 @@ public class KeyScript : ItemClass
     // Start is called before the first frame update
     void Start()
     {
+        DontDestroyOnLoad(this.gameObject);
         if (GameObject.Find(DoorToOpenName))
         {
             GameObject.Find(DoorToOpenName).GetComponent<KeyCollison>().SetKeyScript = this;

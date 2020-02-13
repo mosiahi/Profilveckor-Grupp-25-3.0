@@ -5,10 +5,14 @@ using UnityEngine;
 public class KeyCollison : MonoBehaviour
 {
     KeyScript myKey;
+    [SerializeField] string myKeyName;
     // Start is called before the first frame update
     void Start()
     {
-        
+        if (GameObject.Find(myKeyName))
+        {
+            myKey = GameObject.Find(myKeyName).GetComponent<KeyScript>();
+        }
     }
 
     // Update is called once per frame
