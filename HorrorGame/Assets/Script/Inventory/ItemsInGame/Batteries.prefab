@@ -43,7 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18d24337b7b3f6c4ebe5a59d54a8c3ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 1557865350535888466, guid: d28559b1688cb53468b7b90e00e0a61e, type: 3}
+  prefab: {fileID: 761178014832305713, guid: 6937994c365921740a47947da4ece356, type: 3}
   Stackable: 0
   ID: 0
   Name: Battery
