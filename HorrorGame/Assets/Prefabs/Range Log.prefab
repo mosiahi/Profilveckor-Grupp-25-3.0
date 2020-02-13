@@ -169,7 +169,7 @@ MonoBehaviour:
   health: 2
   enemyName: Log
   baseAttack: 1
-  moveSpeed: 1.5
+  moveSpeed: 4
   myRigidbody: {fileID: 0}
   target: {fileID: 0}
   chaseRadius: 6
