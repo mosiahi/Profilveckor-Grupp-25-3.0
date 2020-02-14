@@ -11,16 +11,11 @@ public class Energy : MonoBehaviour
     float CurrentTime;
     float CurrentTime2;
     float OriginalPlayerSpeed;
-    [SerializeField] RectTransform EnergyBar;
-    [SerializeField] float MaxSpeed;
-    bool SeeEnergyBar = true;
-    Color EnergyBarColor;
     // Start is called before the first frame update
     void Start()
     {
         ThePlayer = gameObject.GetComponent<Player>();
         OriginalPlayerSpeed = ThePlayer.speed;
-        EnergyBarColor = EnergyBar.gameObject.GetComponent<Image>().color;
     }
 
     // Update is called once per frame
@@ -34,28 +29,9 @@ public class Energy : MonoBehaviour
                 CurrentTime = 0;
                 HasEnergyKick = false;
                 ThePlayer.speed = OriginalPlayerSpeed;
-                EnergyBar.gameObject.SetActive(true);
-                EnergyBar.gameObject.GetComponent<Image>().color = EnergyBarColor;
-            }
-            if (ThePlayer.speed >= MaxSpeed - 4)
-            {
-                EnergyBar.gameObject.GetComponent<Image>().color = Color.red;
-                if (SeeEnergyBar)
-                {
-                    SeeEnergyBar = false;
-                    EnergyBar.gameObject.SetActive(false);
-                }
-                else
-                {
-                    SeeEnergyBar = true;
-                    EnergyBar.gameObject.SetActive(true);
-                }
             }
 
-            if (ThePlayer.speed > MaxSpeed)
-            {
-                ThePlayer.Knock(0, 1000);
-            }
+
         }
 
         if (IsResistingDMG)
@@ -70,7 +46,6 @@ public class Energy : MonoBehaviour
         }
 
 
-        EnergyBar.sizeDelta = new Vector2(CurrentTime * 100, EnergyBar.sizeDelta.y);
     }
 
     public void StartEnergyKick(float aTimeToReach, float aSpeedIncrease)

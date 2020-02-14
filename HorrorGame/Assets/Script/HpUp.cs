@@ -16,6 +16,7 @@ public class HpUp : ItemClass
         ItemDescription = Description;
         PlayerHpFloatValue = Player.currentHealth;
         PlayerHpFloatValue.RuntimeValue -= 3;
+        DontDestroyOnLoad(gameObject);
     }
 
     // Update is called once per frame

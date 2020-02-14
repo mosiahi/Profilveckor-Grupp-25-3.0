@@ -14,6 +14,7 @@ public class EnergyDrink : ItemClass
         ItemName = Name;
         ItemDescription = Description;
         PlayerEnergy = GameObject.FindGameObjectWithTag("Player").GetComponent<Energy>();
+        DontDestroyOnLoad(gameObject);
     }
 
     // Update is called once per frame
