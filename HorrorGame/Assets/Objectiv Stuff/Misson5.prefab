@@ -50,4 +50,4 @@ MonoBehaviour:
   - {fileID: 6197005670829626361, guid: 1e547b8251983f14b958122ea84b3fb9, type: 3}
   - {fileID: 1629742451551595458, guid: 315f0611f3eefb24faab51907034d283, type: 3}
   MissonComplete: 0
-  MissonText: Get the second deck at [Insert name]s house
+  MissonText: Get the second deck at Noahs house
