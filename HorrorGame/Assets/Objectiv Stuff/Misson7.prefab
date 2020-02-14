@@ -48,6 +48,6 @@ MonoBehaviour:
   - {fileID: 5133857196500564714, guid: 46b73d698df57a84cabce77f6c352f12, type: 3}
   TriggerCopies:
   - {fileID: 6804441996771326651, guid: cb9f38b188a44bc48aae126aebb8157b, type: 3}
-  - {fileID: 0}
+  - {fileID: 5133857196500564714, guid: 46b73d698df57a84cabce77f6c352f12, type: 3}
   MissonComplete: 0
   MissonText: Escape!
