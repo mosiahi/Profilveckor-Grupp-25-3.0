@@ -13,6 +13,7 @@ public class Picture : ItemClass
     // Start is called before the first frame update
     void Start()
     {
+        DontDestroyOnLoad(gameObject);
         ItemName = Name;
         ItemDescription = Description;
     }
