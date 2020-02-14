@@ -9,6 +9,8 @@ public class rotate : MonoBehaviour
     bool isOn;
     public Vector2 originalSize;
 
+
+
     private void Start()
     {
         battery = 100f;
