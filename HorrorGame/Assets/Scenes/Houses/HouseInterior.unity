@@ -2116,7 +2116,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -124.6, y: 82.6}
+  m_AnchoredPosition: {x: -150.95, y: 92}
   m_SizeDelta: {x: 301.9, y: 268.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &974295788
@@ -4654,7 +4654,7 @@ MonoBehaviour:
   myYSpaceBetweenItem: 56
   myNumberOfColumns: 5
   myXstart: 150
-  myYStart: -14
+  myYStart: -53
   myCoolDown: 0
   myButtonId: 0
   myInventoryMenu: {fileID: 928929175}
