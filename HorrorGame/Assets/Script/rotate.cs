@@ -9,15 +9,21 @@ public class rotate : MonoBehaviour
     bool isOn;
     public Vector2 originalSize;
 
-    private Vector3 currentAngle;
+    //private Vector3 currentAngle;
+    private int angleIncrease;
+
+    private bool no = false;
 
     private void Start()
     {
+        angleIncrease = 90 / 5;
         battery = 100f;
     }
 
     void Update()
     {
+
+
 
         if (battery > 100)
         {
@@ -40,10 +46,42 @@ public class rotate : MonoBehaviour
         rotatePog.y = Input.GetAxisRaw("Vertical");
         if (rotatePog.x > 0f || rotatePog.y > 0f || rotatePog.x < 0f || rotatePog.y < 0f)
         {
-            Debug.Log("Enters rotaion");
+            //Debug.Log("Enters rotaion");
             if (rotatePog.x > 0)
             {
+                if (no)
+                {
+//if (gameObject.transform.eulerAngles.z < 90)
+                //{
+                //    while (gameObject.transform.eulerAngles.z < 90)
+                //    {
+                //        this.gameObject.transform.eulerAngles = new Vector3(
+                //        gameObject.transform.eulerAngles.x,
+                //        gameObject.transform.eulerAngles.y,
+                //        gameObject.transform.eulerAngles.z + angleIncrease);
+                //    }
+                //}
 
+                //if (gameObject.transform.eulerAngles.z > 90)
+                //{
+                //    while (gameObject.transform.eulerAngles.z > 90)
+                //    {
+                //        this.gameObject.transform.eulerAngles = new Vector3(
+                //        gameObject.transform.eulerAngles.x,
+                //        gameObject.transform.eulerAngles.y,
+                //        gameObject.transform.eulerAngles.z - angleIncrease);
+                //    }
+                //}
+
+                //while (gameObject.transform.eulerAngles.z < 90)
+                //{
+                //    this.gameObject.transform.eulerAngles = new Vector3(
+                //    gameObject.transform.eulerAngles.x,
+                //    gameObject.transform.eulerAngles.y,
+                //    gameObject.transform.eulerAngles.z + angleIncrease);
+                //}
+                }
+                
 
                 this.gameObject.transform.eulerAngles = new Vector3(
                 gameObject.transform.eulerAngles.x,
@@ -52,10 +90,22 @@ public class rotate : MonoBehaviour
             }
             if (rotatePog.x < 0)
             {
+                if (no)
+                {
+                    //while (gameObject.transform.eulerAngles.z < 270)
+                    //{
+                    //    this.gameObject.transform.eulerAngles = new Vector3(
+                    //    gameObject.transform.eulerAngles.x,
+                    //    gameObject.transform.eulerAngles.y,
+                    //    gameObject.transform.eulerAngles.z);
+                    //}
+                }
+                
+
                 this.gameObject.transform.eulerAngles = new Vector3(
                 gameObject.transform.eulerAngles.x,
                 gameObject.transform.eulerAngles.y,
-                -90);
+                270);
             }
             if (rotatePog.y > 0)
             {
