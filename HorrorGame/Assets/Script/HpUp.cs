@@ -15,7 +15,6 @@ public class HpUp : ItemClass
         ItemName = Name;
         ItemDescription = Description;
         PlayerHpFloatValue = Player.currentHealth;
-        PlayerHpFloatValue.RuntimeValue -= 3;
         DontDestroyOnLoad(gameObject);
     }
 
