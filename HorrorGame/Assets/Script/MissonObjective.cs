@@ -81,7 +81,10 @@ public class MissonObjective : MonoBehaviour
         {
             if (GameObject.Find(TriggerCopies[i].name))
             {
-                myTriggers[i] = GameObject.Find(TriggerCopies[i].name).GetComponent<TriggerClass>();
+                if(i < myTriggers.Count)
+                {
+                    myTriggers[i] = GameObject.Find(TriggerCopies[i].name).GetComponent<TriggerClass>();
+                }
             }
         }
     }

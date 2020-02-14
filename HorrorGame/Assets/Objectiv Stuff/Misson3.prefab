@@ -44,12 +44,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myTriggers:
-  - {fileID: 414891504119493618, guid: 1814ce6cdf3af374786590c8b01e3b9b, type: 3}
-  - {fileID: 5641858193559577773, guid: d1643464dce3a9f4790b76a145ec9dbd, type: 3}
   - {fileID: 7800297460921775324, guid: abdd21f835a5a5d418d8feae5332221d, type: 3}
+  - {fileID: 5641858193559577773, guid: d1643464dce3a9f4790b76a145ec9dbd, type: 3}
+  - {fileID: 414891504119493618, guid: 1814ce6cdf3af374786590c8b01e3b9b, type: 3}
   TriggerCopies:
-  - {fileID: 414891504119493618, guid: 1814ce6cdf3af374786590c8b01e3b9b, type: 3}
-  - {fileID: 5641858193559577773, guid: d1643464dce3a9f4790b76a145ec9dbd, type: 3}
   - {fileID: 7800297460921775324, guid: abdd21f835a5a5d418d8feae5332221d, type: 3}
+  - {fileID: 5641858193559577773, guid: d1643464dce3a9f4790b76a145ec9dbd, type: 3}
+  - {fileID: 414891504119493618, guid: 1814ce6cdf3af374786590c8b01e3b9b, type: 3}
   MissonComplete: 0
   MissonText: Run back to the car!
