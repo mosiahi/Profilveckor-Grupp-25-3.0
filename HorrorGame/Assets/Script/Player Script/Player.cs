@@ -27,6 +27,7 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        currentHealth.RuntimeValue += 3;
         Scene myCurrentScene = SceneManager.GetActiveScene();
         currentState = PlayerState.walk;
         anim = GetComponent<Animator>();
