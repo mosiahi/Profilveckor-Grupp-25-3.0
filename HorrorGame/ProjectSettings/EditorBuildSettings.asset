@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/LoadGame.unity
     guid: 8a2a623d9bd799c4b82ffe527228ad82
   - enabled: 1
-    path: Assets/Scenes/HouseInterior.unity
+    path: Assets/Scenes/Houses/HouseInterior.unity
     guid: 5979096048c40fe4a91fb944e5c77e9a
   - enabled: 1
     path: Assets/Scenes/Dungeon.unity
