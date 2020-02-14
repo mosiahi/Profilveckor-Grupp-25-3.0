@@ -152,7 +152,7 @@ RectTransform:
   m_Children:
   - {fileID: 1652790211}
   m_Father: {fileID: 560777586}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -435,8 +435,8 @@ RectTransform:
   m_Children:
   - {fileID: 1127245706}
   - {fileID: 1538511239}
-  - {fileID: 143124028}
   - {fileID: 1067797156}
+  - {fileID: 143124028}
   - {fileID: 298969149}
   - {fileID: 2014944266}
   m_Father: {fileID: 1748788928}
@@ -515,7 +515,7 @@ RectTransform:
   m_Children:
   - {fileID: 1824172105}
   m_Father: {fileID: 560777586}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -972,7 +972,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Thank You for playing! '
+  m_text: 'Thank You For Playing! '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
