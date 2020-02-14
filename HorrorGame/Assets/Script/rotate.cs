@@ -9,7 +9,7 @@ public class rotate : MonoBehaviour
     bool isOn;
     public Vector2 originalSize;
 
-
+    private Vector3 currentAngle;
 
     private void Start()
     {
@@ -18,6 +18,11 @@ public class rotate : MonoBehaviour
 
     void Update()
     {
+
+        if (battery > 100)
+        {
+            battery = 100;
+        }
         if (Input.GetKeyDown(KeyCode.F))
         {
             if (isOn)
