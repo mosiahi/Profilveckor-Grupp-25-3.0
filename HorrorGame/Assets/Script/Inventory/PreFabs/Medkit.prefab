@@ -127,6 +127,21 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 2498313562804314151, guid: 6937994c365921740a47947da4ece356,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2498313562804314151, guid: 6937994c365921740a47947da4ece356,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2498313562804314151, guid: 6937994c365921740a47947da4ece356,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7111760722056553499, guid: 6937994c365921740a47947da4ece356,
         type: 3}
       propertyPath: m_Sprite

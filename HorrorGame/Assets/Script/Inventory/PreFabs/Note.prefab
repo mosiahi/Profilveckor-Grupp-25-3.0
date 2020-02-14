@@ -22,6 +22,12 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 385393127928044437, guid: c71e5e2987448e649a8de8b4e1b84c9e,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: dad18495d68a5cf44a25d9b43b21c992,
+        type: 3}
     - target: {fileID: 4990260252193284009, guid: c71e5e2987448e649a8de8b4e1b84c9e,
         type: 3}
       propertyPath: m_LocalPosition.x

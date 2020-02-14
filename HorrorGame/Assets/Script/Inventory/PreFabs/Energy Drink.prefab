@@ -75,12 +75,12 @@ PrefabInstance:
     - target: {fileID: 278608561639604065, guid: 2a5d69617afeb554d9a0ff6427491634,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 50
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 278608561639604065, guid: 2a5d69617afeb554d9a0ff6427491634,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 50
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 278608561639604065, guid: 2a5d69617afeb554d9a0ff6427491634,
         type: 3}
@@ -115,27 +115,27 @@ PrefabInstance:
     - target: {fileID: 279558135133538938, guid: 2a5d69617afeb554d9a0ff6427491634,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -31.1
+      value: -15.8
       objectReference: {fileID: 0}
     - target: {fileID: 279558135133538938, guid: 2a5d69617afeb554d9a0ff6427491634,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 10.4
+      value: 4.1
       objectReference: {fileID: 0}
     - target: {fileID: 279558135133538938, guid: 2a5d69617afeb554d9a0ff6427491634,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.41636872
+      value: 0.23645006
       objectReference: {fileID: 0}
     - target: {fileID: 279558135133538938, guid: 2a5d69617afeb554d9a0ff6427491634,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.5158828
+      value: 0.3095297
       objectReference: {fileID: 0}
     - target: {fileID: 3163256124384115063, guid: 2a5d69617afeb554d9a0ff6427491634,
         type: 3}
       propertyPath: m_Name
-      value: Energy drink
+      value: Energy Drink
       objectReference: {fileID: 0}
     - target: {fileID: 4883053469123312477, guid: 2a5d69617afeb554d9a0ff6427491634,
         type: 3}
