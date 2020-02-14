@@ -47,9 +47,11 @@ MonoBehaviour:
   - {fileID: 5242597772820302574, guid: e6252871f60c7194f991cd99c85cf25a, type: 3}
   - {fileID: 8523465088110779521, guid: 0b60f70161c9488499692dd5ff778614, type: 3}
   - {fileID: 2375036303755346833, guid: 41669c1313e425f4eacc3c3ab8ce74ad, type: 3}
+  - {fileID: 8940975263450105456, guid: a5998dafd4e3248418370dbe1889dfab, type: 3}
   TriggerCopies:
   - {fileID: 5242597772820302574, guid: e6252871f60c7194f991cd99c85cf25a, type: 3}
   - {fileID: 8523465088110779521, guid: 0b60f70161c9488499692dd5ff778614, type: 3}
   - {fileID: 2375036303755346833, guid: 41669c1313e425f4eacc3c3ab8ce74ad, type: 3}
+  - {fileID: 8940975263450105456, guid: a5998dafd4e3248418370dbe1889dfab, type: 3}
   MissonComplete: 0
   MissonText: Go to Gregs house
