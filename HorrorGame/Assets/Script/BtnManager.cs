@@ -17,8 +17,4 @@ public class BtnManager : MonoBehaviour
     {
         Application.Quit();
     }
-    public void ControlBtn(string ControlBtn)
-    {
-        SceneManager.LoadScene("Controller");
-    }
 }
