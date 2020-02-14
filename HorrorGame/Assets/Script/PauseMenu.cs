@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
+    public InventoryObjects inventory;
     public bool GameIsPaused = false;
 
     public void Start()
@@ -61,6 +62,9 @@ public class PauseMenu : MonoBehaviour
     {
         Time.timeScale = 0f;
         Application.Quit();
+        inventory.Container.Clear();
+
+
     }
 
     public void Controller()

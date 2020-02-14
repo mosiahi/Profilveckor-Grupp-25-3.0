@@ -44,12 +44,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myTriggers:
-  - {fileID: 4240150230869562887, guid: c2aa5be48a0a62e4dbe9c00238fe28a2, type: 3}
-  - {fileID: 8323104056599408703, guid: 153514874731312478ad1369654a40ec, type: 3}
   - {fileID: 6037716169134311309, guid: 922ac2c252f138b4786e6508d417110b, type: 3}
+  - {fileID: 8323104056599408703, guid: 153514874731312478ad1369654a40ec, type: 3}
+  - {fileID: 4240150230869562887, guid: c2aa5be48a0a62e4dbe9c00238fe28a2, type: 3}
   TriggerCopies:
-  - {fileID: 4240150230869562887, guid: c2aa5be48a0a62e4dbe9c00238fe28a2, type: 3}
-  - {fileID: 8323104056599408703, guid: 153514874731312478ad1369654a40ec, type: 3}
   - {fileID: 6037716169134311309, guid: 922ac2c252f138b4786e6508d417110b, type: 3}
+  - {fileID: 8323104056599408703, guid: 153514874731312478ad1369654a40ec, type: 3}
+  - {fileID: 4240150230869562887, guid: c2aa5be48a0a62e4dbe9c00238fe28a2, type: 3}
   MissonComplete: 0
   MissonText: Find some car oil

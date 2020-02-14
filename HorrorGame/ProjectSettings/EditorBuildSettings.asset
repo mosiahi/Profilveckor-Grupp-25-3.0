@@ -32,4 +32,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/EndScene.unity
     guid: 6c319805f7d19cb47b28dbe29853ab79
+  - enabled: 1
+    path: Assets/Scenes/Houses/Neighbour House.unity
+    guid: 70fc7688ac771404890f44699126891a
+  - enabled: 1
+    path: Assets/Scenes/Houses/Neighbour House 2.unity
+    guid: 318b792da066b764883df792559b3478
+  - enabled: 1
+    path: Assets/Scenes/Houses/Neighbour House 3.unity
+    guid: 09e24710aabc0c444b4703c70b131f85
   m_configObjects: {}
