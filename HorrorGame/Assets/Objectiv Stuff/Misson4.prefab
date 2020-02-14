@@ -50,4 +50,4 @@ MonoBehaviour:
   - {fileID: 150038780641392748, guid: d59bbc05a2da4c14e958d249677fa717, type: 3}
   - {fileID: 6349520658220176722, guid: 2cab72b01f0f45042901194d767eba2d, type: 3}
   MissonComplete: 0
-  MissonText: Get the first deck at [Insert name]s house
+  MissonText: Get the first deck at Liams house

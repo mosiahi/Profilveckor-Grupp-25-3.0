@@ -1115,8 +1115,8 @@ PrefabInstance:
     - target: {fileID: 4362189946165632606, guid: d716ab1ccccf3a34192d5992693a0879,
         type: 3}
       propertyPath: m_Text
-      value: '[Insert name] must have stolen the key to my safe room last time they
-        were here! If you who is reading this want to get in then I would look there!'
+      value: Liam must have stolen the key to my safe room last time they were here!
+        If you who is reading this want to get in then I would look there!-Noah
       objectReference: {fileID: 0}
     - target: {fileID: 6286938213440368640, guid: d716ab1ccccf3a34192d5992693a0879,
         type: 3}
