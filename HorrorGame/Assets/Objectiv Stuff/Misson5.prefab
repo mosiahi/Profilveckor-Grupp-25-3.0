@@ -43,7 +43,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3807ecf3316a0834f9234398d431a301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myTriggers: []
-  TriggerCopies: []
+  myTriggers:
+  - {fileID: 1629742451551595458, guid: 315f0611f3eefb24faab51907034d283, type: 3}
+  - {fileID: 6197005670829626361, guid: 1e547b8251983f14b958122ea84b3fb9, type: 3}
+  TriggerCopies:
+  - {fileID: 1629742451551595458, guid: 315f0611f3eefb24faab51907034d283, type: 3}
+  - {fileID: 6197005670829626361, guid: 1e547b8251983f14b958122ea84b3fb9, type: 3}
   MissonComplete: 0
   MissonText: Get the second deck at [Insert name]s house
