@@ -43,7 +43,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3807ecf3316a0834f9234398d431a301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myTriggers: []
-  TriggerCopies: []
+  myTriggers:
+  - {fileID: 150038780641392748, guid: d59bbc05a2da4c14e958d249677fa717, type: 3}
+  - {fileID: 6349520658220176722, guid: 2cab72b01f0f45042901194d767eba2d, type: 3}
+  TriggerCopies:
+  - {fileID: 150038780641392748, guid: d59bbc05a2da4c14e958d249677fa717, type: 3}
+  - {fileID: 6349520658220176722, guid: 2cab72b01f0f45042901194d767eba2d, type: 3}
   MissonComplete: 0
   MissonText: Get the first deck at [Insert name]s house
